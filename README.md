@@ -71,7 +71,7 @@ Please see the deck to introduce Quantum C2C.
 ## Example
 
 You could view the example in 
-![quantum_c2c_example.ipynb](quantum_c2c_example.ipynb)
+![quantum_c2c_example.ipynb](example/quantum_c2c_example.ipynb)
 
 
 ## Reference
