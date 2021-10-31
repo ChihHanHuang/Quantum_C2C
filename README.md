@@ -16,4 +16,5 @@ Based on universal approximation theorems, deep learning (DL) could approximate 
  
 
 [1] Jiang, Weiwen, Jinjun Xiong, and Yiyu Shi. "A co-design framework of neural networks and quantum circuits towards quantum advantage." Nature communications 12.1 (2021): 1-13.
+
 [2] Wu, Sau Lan, et al. "Application of quantum machine learning using the quantum variational classifier method to high energy physics analysis at the lhc on ibm quantum computer simulator and hardware with 10 qubits." Journal of Physics G: Nuclear and Particle Physics (2021).
