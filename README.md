@@ -47,7 +47,7 @@ Please see the deck to introduce Quantum C2C
  b. X_train:  Classical Data for whole model training. The type is data type of PyTorch. X_train.data is data and  X_train.targets is targets.
  c. X_test:  Classical Data for whole model testing. The type is data type of PyTorch. X_test.data is data and  X_test.targets is targets.
  d. autoencoder_model: PyTorch model of autoencoder. Required variables are input_shape (shape of a input data) and encoded_len (length of encoded data).
- e. quantum_curcuit: Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link]<https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html>)
+ e. quantum_curcuit: Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html)
  f. epochs=10
 
 2. Output:
