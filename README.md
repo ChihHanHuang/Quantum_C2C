@@ -9,7 +9,7 @@ In previous literatures related to QC or QML, most techniques of data compressio
 Based on universal approximation theorems, deep learning (DL) could approximate any function. Here, we hypothesized that DL would learn the optimized parameters to compress classical data for QC/QML. Information loss would be minimized during the data compression if with deep learning. We argued that each quantum circuit would be suitable for different data compression models (both hyperparemeters and parameters). One could train and design different DL data compression model structures for several quantum circuits.
 
 **We first proposed to use Multitask Learning on QC/QML to simultaneously minimize the loss of autoencoder and loss of performance of QC/QML.** Furthurmore, we devoloped a tool function that one could perform end-to-end training with inputting classical data. Users could use the tool withiut complicated coding.
-Please see the deck to introduce Quantum C2C
+Please see the deck to introduce Quantum C2C.
 
 ![Quantum C2C](Quantum_C2C-Pitch.pptx)
 
@@ -53,7 +53,7 @@ Please see the deck to introduce Quantum C2C
  Classical Data for whole model testing. The type is data type of PyTorch. X_test.data is data and  X_test.targets is targets.
  
 ####  d. autoencoder_model: 
- PyTorch model of autoencoder. Required variables are input_shape (shape of a input data) and encoded_len (length of encoded data). You could use a simple autoencoder by "from quantum_c2c import AutoEncoder"
+ PyTorch model of autoencoder. Required variables are input_shape (shape of a input data) and encoded_len (length of encoded data). You could use a simple autoencoder by "from quantum_c2c import AutoEncoder."
  
 ####  e. quantum_curcuit: 
  Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html). Required variables are encoded_len (length of encoded data).  You could use a simple Quantum-Classical Class by "from quantum_c2c import Hybrid"
