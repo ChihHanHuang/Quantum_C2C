@@ -68,6 +68,12 @@ Please see the deck to introduce Quantum C2C.
 ####  b. y_predicted
 
 
+## Example
+
+You could view the example in 
+![quantum_c2c_example.ipynb](quantum_c2c_example.ipynb)
+
+
 ## Reference
 
 [1] Jiang, Weiwen, Jinjun Xiong, and Yiyu Shi. "A co-design framework of neural networks and quantum circuits towards quantum advantage." Nature communications 12.1 (2021): 1-13.
