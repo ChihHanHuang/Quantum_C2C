@@ -18,6 +18,7 @@ We proposed to use Multitask Learning on QC/QML to simultaneously minimize the l
 1. Splitting the data into training data and test data.
 2. Using deep learning (autoencoder) to perform dimensionality reduction.
 
+![autoencoder](autoencoder.png)
 
 3. Performing quantum encoding.
 
