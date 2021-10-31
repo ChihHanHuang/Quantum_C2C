@@ -8,7 +8,7 @@ In previous literatures related to QC or QML, most techniques of data compressio
 
 Based on universal approximation theorems, deep learning (DL) could approximate any function. Here, we hypothesized that DL would learn the optimized parameters to compress classical data for QC/QML. Information loss would be minimized during the data compression if with deep learning. We argued that each quantum circuit would be suitable for different data compression models (both hyperparemeters and parameters). One could train and design different DL data compression model structures for several quantum circuits.
 
-We proposed to use Multitask Learning on QC/QML to simultaneously minimize the loss of autoencoder and loss of performance of QC/QML. Furthurmore, we devoloped a tool function that one could perform end-to-end training with inputting classical data. Users could use the tool withiut complicated coding.
+**We first proposed to use Multitask Learning on QC/QML to simultaneously minimize the loss of autoencoder and loss of performance of QC/QML.** Furthurmore, we devoloped a tool function that one could perform end-to-end training with inputting classical data. Users could use the tool withiut complicated coding.
 Please see the deck to introduce Quantum C2C
 
 ![Quantum C2C](Quantum_C2C-Pitch.pptx)
