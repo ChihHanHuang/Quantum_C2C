@@ -284,7 +284,7 @@ def quantum_c2c(X_train_autoencoder,X_train,X_test,autoencoder_model,quantum_cur
     
     
     y_predicted=np.array(y_predicted)
-    trained_autoencoder_model=model
+
     
     return model.encoder,y_predicted
 
