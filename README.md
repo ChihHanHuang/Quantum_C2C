@@ -41,7 +41,7 @@ Please see the deck to introduce Quantum C2C
 
 ## Usage
 
-1. Input:
+### 1. Input:
 
  a. X_train_autoencoder: Classical Data for the first autoencoder training (step 2 in the Methods). The type is data type of PyTorch. X_train_autoencoder.data is data and  X_train_autoencoder.targets is targets.
  
@@ -55,7 +55,7 @@ Please see the deck to introduce Quantum C2C
  
  f. epochs: Epochs for the first autoencoder training and whole model training. Default is 10.
 
-2. Output:
+### 2. Output:
 
  a. trained_autoencoder_model
  b. y_predicted
