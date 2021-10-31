@@ -11,7 +11,7 @@ Based on universal approximation theorems, deep learning (DL) could approximate 
 We proposed to use Multitask Learning on QC/QML to simultaneously minimize the loss of autoencoder and loss of performance of QC/QML.
 Please see the deck to introduce Quantum C2C
 
-![Quantum C2C](QuantumC2C-Pitch.pptx)
+![Quantum C2C](Quantum_C2C-Pitch.pptx)
 
 
 ## Methods
