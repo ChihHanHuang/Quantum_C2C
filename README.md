@@ -12,14 +12,24 @@ Based on universal approximation theorems, deep learning (DL) could approximate 
 
  We proposed the methodology, Quantum C2C , as the following steps:
 1. Splitting the data into training data and test data.
-2. Using deep learning (autoencoder) to perform dimensionality reduction.
+2. 
+3. Using deep learning (autoencoder) to perform dimensionality reduction.
 
 ![autoencoder](autoencoder.png)
 4. Performing quantum encoding.
+
 5. Inputting the quantum data into quantum circuit of QC/QML.
+
 6. Performing quantum measurement.
+
 7. Calculating the loss between the measurement result and true label and loss between Reconstructed data and Classical training data .
+
+![main](main.png)
+
+
+
 8. Repeating the above steps for several epochs, we could get the model with the minimized loss with optimization.
+
 9. Using the proposed deep learning model to perform dimensionality reduction for the future classical data including test data.
 
 
