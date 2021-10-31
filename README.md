@@ -63,10 +63,12 @@ Please see the deck to introduce Quantum C2C.
 
 ### 2. Output:
 
-####  a. trained_autoencoder_model
+####  a. trained_autoencoder_model:
+The last trained autoencoder model
  
 ####  b. y_predicted
 
+Predicted target values
 
 ## Example
 
