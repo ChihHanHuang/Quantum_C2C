@@ -43,12 +43,17 @@ Please see the deck to introduce Quantum C2C
 
 1. Input:
 
- a. X_train_autoencoder: Classical Data for first autoencoder training (step 2 in the Methods). The type is data type of PyTorch. X_train_autoencoder.data is data and  X_train_autoencoder.targets is targets.
+ a. X_train_autoencoder: Classical Data for the first autoencoder training (step 2 in the Methods). The type is data type of PyTorch. X_train_autoencoder.data is data and  X_train_autoencoder.targets is targets.
+ 
  b. X_train:  Classical Data for whole model training. The type is data type of PyTorch. X_train.data is data and  X_train.targets is targets.
+ 
  c. X_test:  Classical Data for whole model testing. The type is data type of PyTorch. X_test.data is data and  X_test.targets is targets.
- d. autoencoder_model: PyTorch model of autoencoder. Required variables are input_shape (shape of a input data) and encoded_len (length of encoded data).
- e. quantum_curcuit: Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html)
- f. epochs=10
+ 
+ d. autoencoder_model: PyTorch model of autoencoder. Required variables are input_shape (shape of a input data) and encoded_len (length of encoded data). You could use a simple autoencoder by "from quantum_c2c import AutoEncoder"
+ 
+ e. quantum_curcuit: Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html). Required variables are encoded_len (length of encoded data).  You could use a simple autoencoder by "from quantum_c2c import Hybrid"
+ 
+ f. epochs: Epochs for the first autoencoder training and whole model training. Default is 10.
 
 2. Output:
 
@@ -61,3 +66,5 @@ Please see the deck to introduce Quantum C2C
 [1] Jiang, Weiwen, Jinjun Xiong, and Yiyu Shi. "A co-design framework of neural networks and quantum circuits towards quantum advantage." Nature communications 12.1 (2021): 1-13.
 
 [2] Wu, Sau Lan, et al. "Application of quantum machine learning using the quantum variational classifier method to high energy physics analysis at the lhc on ibm quantum computer simulator and hardware with 10 qubits." Journal of Physics G: Nuclear and Particle Physics (2021).
+
+[3] https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html
