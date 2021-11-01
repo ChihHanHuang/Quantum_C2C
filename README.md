@@ -18,7 +18,7 @@ Please see the document to introduce Quantum C2C.
 
  We proposed the methodology, Quantum C2C , as the following steps:
 1. Splitting the data into training data and test data.
-2. Using deep learning (autoencoder) to perform dimensionality reduction.
+2. Using deep learning (autoencoder) to perform dimensionality reduction (pre-training).
 
 ![autoencoder](autoencoder.png)
 
