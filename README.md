@@ -44,13 +44,13 @@ Please see the document to introduce Quantum C2C.
 ### 1. Input:
 
 #### a. X_train_autoencoder: 
- Classical Data for the first autoencoder training (step 2 in the Methods). The type is data type of PyTorch. X_train_autoencoder.data is data and  X_train_autoencoder.targets is targets.
+ Classical Data for the autoencoder pre-training (step 2 in the Methods). The type is data type of PyTorch. X_train_autoencoder.data is data and  X_train_autoencoder.targets is targets.
  
 ####  b. X_train:  
- Classical Data for whole model training. The type is data type of PyTorch. X_train.data is data and  X_train.targets is targets.
+ Classical Data for main model training. The type is data type of PyTorch. X_train.data is data and  X_train.targets is targets.
  
 ####  c. X_test:  
- Classical Data for whole model testing. The type is data type of PyTorch. X_test.data is data and  X_test.targets is targets.
+ Classical Data for main model testing. The type is data type of PyTorch. X_test.data is data and  X_test.targets is targets.
  
 ####  d. autoencoder_model: 
  PyTorch model of autoencoder. Required variables are input_shape (shape of a input data) and encoded_len (length of encoded data). You could use a simple autoencoder by "from quantum_c2c import AutoEncoder."
@@ -59,7 +59,7 @@ Please see the document to introduce Quantum C2C.
  Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html).) Required variables are encoded_len (length of encoded data).  You could use a simple Quantum-Classical Class by "from quantum_c2c import Hybrid"
  
 ####  f. epochs: 
- Epochs for the first autoencoder training and whole model training. Default is 10.
+ Epochs for the autoencoder pre-training and main model training. Default is 10.
 
 ### 2. Output:
 
