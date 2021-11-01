@@ -63,8 +63,8 @@ Please see the document to introduce Quantum C2C.
 
 ### 2. Output:
 
-####  a. trained_autoencoder_model:
-The last trained autoencoder model
+####  a. model.encoder:
+The last trained encoder model
  
 ####  b. y_predicted
 
