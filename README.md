@@ -59,7 +59,7 @@ Please see the document introducing Quantum C2C.
  Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html).) Required variables are encoded_len (length of encoded data).  You could use a simple Quantum-Classical Class by "from quantum_c2c import Hybrid"
  
 ####  f. saving_folder: 
- Folder name for saving the models "pretraining_autoencoder.pth" and "trained_encoder_model.pth".
+ Folder name for saving the models "pretrained_autoencoder.pth" and "trained_encoder_model.pth".
  
 ####  g. epochs: 
  Epochs for the autoencoder pre-training and main model training. Default is 10.
@@ -72,7 +72,7 @@ Return of the function. The last trained encoder model
 ####  b. y_predicted:
 Return of the function. Predicted target values
 
-####  c. pretraining_autoencoder.pth:
+####  c. pretrained_autoencoder.pth:
 The file saving in saving_folder. Pretrained autoencoder.
 
 ####  d. trained_encoder_model.pth:
