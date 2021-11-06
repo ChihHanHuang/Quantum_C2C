@@ -188,10 +188,10 @@ def quantum_c2c(X_train_autoencoder,X_train,X_test,autoencoder_model,quantum_cur
         print('[{}/{}] Loss:'.format(epoch+1, epochs), loss.item())
 
 
-    pretraining_autoencoder_path=os.path.join(saving_folder, 'pretraining_autoencoder.pth')
-    torch.save(model, pretraining_autoencoder_path)
+    pretrained_autoencoder_path=os.path.join(saving_folder, 'pretrained_autoencoder.pth')
+    torch.save(model, pretrained_autoencoder_path)
 
-    autoencoder = torch.load(pretraining_autoencoder_path)
+    autoencoder = torch.load(pretrained_autoencoder_path)
     autoencoder.eval()    
     
     
