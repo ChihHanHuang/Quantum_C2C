@@ -1,6 +1,4 @@
 import numpy as np
-
-
 import torch
 from torch.autograd import Function
 from torchvision import datasets, transforms
@@ -15,9 +13,9 @@ import pickle
 
 
 
-
+###########
 #QuantumCircuit
-
+###########
 
 class QuantumCircuit:
     """ 
@@ -115,11 +113,10 @@ class Hybrid(nn.Module):
 
 
 
-
+###########
 #AutoEncoder
+###########
 
-
-# Model structure
 class AutoEncoder(nn.Module):
     
     def __init__(self,input_shape,encoded_len):
@@ -157,57 +154,55 @@ class AutoEncoder(nn.Module):
 
 def quantum_c2c(X_train_autoencoder,X_train,X_test,autoencoder_model,quantum_curcuit,epochs=10):
     
-    ##train autoencoder
+    ##pre-train autoencoder
     
     # Settings
     
     batch_size = 128
     lr = 0.008
 
-
-
+    #get data for pre-training autoencoder
 
     train_loader = torch.utils.data.DataLoader(X_train_autoencoder, batch_size=batch_size, shuffle=True)
-    # Optimizer and loss function
-    
     input_len=X_train.data.shape[-1]*X_train.data.shape[-2]
+    
+    # Optimizer and loss function
     
     model = autoencoder_model
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
     loss_function = nn.MSELoss()
-    # Train
+    
+    # pre-train
+    
     print('Pre-training autoencoder')
     for epoch in range(epochs):
         for data, labels in train_loader:
             
             inputs = data.view(-1, input_len)
-
-            # Forward
             codes, decoded = model(inputs)
-
-            # Backward
             optimizer.zero_grad()
             loss = loss_function(decoded, inputs)
             loss.backward()
             optimizer.step()
 
-        # Show progress
         print('[{}/{}] Loss:'.format(epoch+1, epochs), loss.item())
 
 
-    # Save
+    
     torch.save(model, 'pretraining_autoencoder.pth')
 
     autoencoder = torch.load('pretraining_autoencoder.pth')
     autoencoder.eval()    
     
     
-    #train the whole model
+    ##train the main model
     
     #create data loader
+    
     train_loader = torch.utils.data.DataLoader(X_train, batch_size=1, shuffle=True)
-
     test_loader = torch.utils.data.DataLoader(X_test, batch_size=1, shuffle=True)
+    
+    #create model
     
     class Net_autoencoder(nn.Module):
         def __init__(self):
@@ -223,8 +218,6 @@ def quantum_c2c(X_train_autoencoder,X_train,X_test,autoencoder_model,quantum_cur
             decoded = self.decoder(codes)
             x = self.hybrid(codes)
             return torch.cat((x, 1 - x), -1),decoded    
-    
-
     
     model = Net_autoencoder()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
@@ -259,6 +252,7 @@ def quantum_c2c(X_train_autoencoder,X_train,X_test,autoencoder_model,quantum_cur
     
     
     # test model
+    
     model.eval()
     y_predicted=[]
     
