@@ -60,10 +60,18 @@ If "Successful!" is shown lastly, it would be installed successfully.
  Classical Data for main model testing. The type is data type of PyTorch. X_test.data is data and  X_test.targets is targets.
  
 ####  d. autoencoder_model: 
- PyTorch model of autoencoder. Required variables are input_shape (shape of a input data) and encoded_len (length of encoded data). You could use a simple autoencoder by "from quantum_c2c import AutoEncoder."
+ PyTorch model of autoencoder. Required variables are input_shape (shape of a input data) and encoded_len (length of encoded data). You could use a simple autoencoder by 
+ 
+<pre><code>
+from quantum_c2c.quantum_c2c import AutoEncoder
+</code></pre>
  
 ####  e. quantum_curcuit: 
- Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html).) Required variables are encoded_len (length of encoded data).  You could use a simple Quantum-Classical Class by "from quantum_c2c import Hybrid"
+ Qiskit's "Quantum-Classical Class" with PyTorch (Please see the details in [link](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html).) Required variables are encoded_len (length of encoded data).  You could use a simple Quantum-Classical Class by
+ 
+<pre><code>
+from quantum_c2c.quantum_c2c import Hybrid
+</code></pre>
  
 ####  f. saving_folder: 
  Folder name for saving the models "pretrained_autoencoder.pth" and "trained_encoder_model.pth".
