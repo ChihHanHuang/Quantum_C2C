@@ -102,5 +102,7 @@ You could view the example in
 ## Contributor
 
 Chih-Han (Robin) Hunag (Team Leader)
+
 Khushwanth Kumar
+
 Sumitra Pundlik
