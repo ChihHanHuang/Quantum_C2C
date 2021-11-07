@@ -98,3 +98,9 @@ You could view the example in
 [2] Wu, Sau Lan, et al. "Application of quantum machine learning using the quantum variational classifier method to high energy physics analysis at the lhc on ibm quantum computer simulator and hardware with 10 qubits." Journal of Physics G: Nuclear and Particle Physics (2021).
 
 [3] https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html
+
+## Contributor
+
+Chih-Han (Robin) Hunag (Team Leader)
+Khushwanth Kumar
+Sumitra Pundlik
