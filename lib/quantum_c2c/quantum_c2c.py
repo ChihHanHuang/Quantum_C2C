@@ -235,7 +235,7 @@ def quantum_c2c(X_train_autoencoder,X_train,X_test,autoencoder_model,quantum_cur
             # Forward pass
             output,decoded = model(data)
             # Calculating loss
-            data_flatten = data.view(-1, 784)
+            data_flatten = data.view(-1, input_len)
             loss = loss_func(output, target)+autoencoder_loss(decoded,data_flatten)
             # Backward pass
             loss.backward()
