@@ -38,6 +38,13 @@ Please see the document introducing Quantum C2C.
 
 8. Using the proposed deep learning model to perform dimensionality reduction for the future classical data including test data.
 
+## Install
+<pre><code>
+cd lib
+python setup.py install
+python test.py
+</code></pre>
+If "Successful!" is shown lastly, it would be installed successfully.
 
 ## Usage
 
