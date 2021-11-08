@@ -79,6 +79,12 @@ from quantum_c2c.quantum_c2c import Hybrid
 ####  g. epochs: 
  Epochs for the autoencoder pre-training and main model training. Default is 10.
 
+####  h. encoded_len: 
+ length of encoded data
+
+
+
+
 ### 2. Output:
 
 ####  a. model.encoder:
