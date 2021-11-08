@@ -180,7 +180,7 @@ class AutoEncoder(nn.Module):
         return codes, decoded
 
 
-def quantum_c2c(X_train_autoencoder,X_train,X_test,autoencoder_model,quantum_curcuit,saving_folder,epochs=10,encoded_len=10):
+def quantum_c2c(X_train_autoencoder,X_train,X_test,autoencoder_model,quantum_curcuit,saving_folder,epochs=10,encoded_len=2):
     
     ##pre-train autoencoder
     
