@@ -103,7 +103,7 @@ The file saving in saving_folder. Trained encoder model.
 ## Example
 
 You could view the example in 
-![quantum_c2c_example.ipynb](example/quantum_c2c_example_v0.ipynb)
+![quantum_c2c_example_v0.ipynb](example/quantum_c2c_example_v0.ipynb)
 
 
 ## Reference
