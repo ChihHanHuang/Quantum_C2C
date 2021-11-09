@@ -1,7 +1,7 @@
 ![main](brand.png)
 # Quantum C2C
 
-## Intriduction
+## Introduction
 
 In a noisy intermediate-scale quantum (NISQ) era, quantum processors contain about 50 to a few hundred qubits. However, dimension of some classical data could be far larger. Hence, for a project of quantum computing (QC) or quantum machine learning (QML), data compression of classical data would be a must in a NISQ era. 
 
@@ -103,7 +103,7 @@ The file saving in saving_folder. Trained encoder model.
 ## Example
 
 You could view the example in 
-![quantum_c2c_example.ipynb](example/quantum_c2c_example.ipynb)
+![quantum_c2c_example.ipynb](example/quantum_c2c_example_v0.ipynb)
 
 
 ## Reference
