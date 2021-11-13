@@ -9,7 +9,7 @@ with open("version", "r") as f:
 setuptools.setup(
     name="quantum_c2c",
     version=version,
-    author="Chih Han Huang, Khushwanth Kumar, Sumitra Pundlik, Vardaan Sahgal",
+    author="Chih Han Huang, Khushwanth Kumar, Sumitra Pundlik, Vardaan Sahgal, Tathagata Majumdar",
     author_email="",
     description="Quantum C2C.",
     long_description=long_description,
