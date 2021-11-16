@@ -29,7 +29,7 @@ Please see the document introducing Quantum C2C.
 
 5. Performing quantum measurement.
 
-6. Calculating the loss between the measurement result and true label and loss between Reconstructed data and Classical training data .
+6. Calculating the loss between the measurement result and true label and loss between reconstructed data and classical training data .
 
 ![main](main.png)
 
