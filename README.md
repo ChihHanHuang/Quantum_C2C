@@ -104,8 +104,9 @@ The file saving in saving_folder. Trained encoder model.
 
 ## Example
 
-You could view the example in 
-![quantum_c2c_example_v0.ipynb](example/quantum_c2c_example_v0.ipynb)
+You could view the example in the folder "example"
+Getting started:
+![quantum_c2c_example_v0.ipynb](example/01_Getting_Started/quantum_c2c_example_v0.ipynb)
 
 
 ## Reference
