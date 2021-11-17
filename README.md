@@ -97,10 +97,10 @@ Return of the function. The last trained encoder model
 Return of the function. Predicted target values
 
 ####  c. pretrained_autoencoder.pth:
-The file saving in saving_folder. Pretrained autoencoder.
+The file saved in saving_folder. Pretrained autoencoder.
 
 ####  d. trained_encoder_model.pth:
-The file saving in saving_folder. Trained encoder model.
+The file saved in saving_folder. Trained encoder model.
 
 ## Example
 
