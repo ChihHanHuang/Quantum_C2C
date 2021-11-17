@@ -29,10 +29,6 @@ Please see the document introducing Quantum C2C.
 
 5. Performing quantum measurement.
 
-![main](measure.JPG)
-
-The figure is the illustration of example for encoded_len=15
-
 6. Calculating the loss between the measurement result and true label and loss between reconstructed data and classical training data .
 
 ![main](main.png)
@@ -87,7 +83,9 @@ from quantum_c2c.quantum_c2c import Hybrid
 ####  h. encoded_len: 
  length of encoded data
 
+![main](measure.JPG)
 
+The figure is the illustration of example for encoded_len=15
 
 
 ### 2. Output:
