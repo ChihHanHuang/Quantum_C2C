@@ -31,6 +31,8 @@ Please see the document introducing Quantum C2C.
 
 ![main](measure.JPG)
 
+The figure is the illustration of example for encoded_len=15
+
 6. Calculating the loss between the measurement result and true label and loss between reconstructed data and classical training data .
 
 ![main](main.png)
