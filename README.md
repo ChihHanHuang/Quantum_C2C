@@ -73,6 +73,11 @@ from quantum_c2c.quantum_c2c import AutoEncoder
 <pre><code>
 from quantum_c2c.quantum_c2c import Hybrid
 </code></pre>
+
+
+ ![main](measure.JPG)
+
+The figure is the illustration of example for Hybrid (encoded_len=15)
  
 ####  f. saving_folder: 
  Folder name for saving the models "pretrained_autoencoder.pth" and "trained_encoder_model.pth".
@@ -83,9 +88,6 @@ from quantum_c2c.quantum_c2c import Hybrid
 ####  h. encoded_len: 
  length of encoded data
 
-![main](measure.JPG)
-
-The figure is the illustration of example for Hybrid (encoded_len=15)
 
 
 ### 2. Output:
