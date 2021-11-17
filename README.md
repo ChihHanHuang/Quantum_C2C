@@ -85,7 +85,7 @@ from quantum_c2c.quantum_c2c import Hybrid
 
 ![main](measure.JPG)
 
-The figure is the illustration of example for encoded_len=15
+The figure is the illustration of example for Hybrid (encoded_len=15)
 
 
 ### 2. Output:
