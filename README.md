@@ -122,9 +122,9 @@ Getting started:
 
 ## Contributor
 
-Chih-Han (Robin) Hunag (Team Leader/First Author)
+Chih-Han (Robin) Hunag (Team Leader/Co-First Author)
 
-Tsai-Min (Simon) Chen (Co-first author)
+Tsai-Min (Simon) Chen (Co-First Author)
 
 Khushwanth Kumar
 
