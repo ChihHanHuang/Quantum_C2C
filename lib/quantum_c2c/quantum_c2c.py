@@ -168,7 +168,7 @@ class AutoEncoder(nn.Module):
             nn.Tanh(),
             nn.Linear(128, input_len),
             nn.Sigmoid(),
-            Reshape(-1,input_shape[-1],input_shape[-2]),
+            Reshape(-1,input_shape[-2],input_shape[-1]),
         )
         
         self.original_shape = input_shape
